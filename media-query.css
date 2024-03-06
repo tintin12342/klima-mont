@@ -1,0 +1,264 @@
+@media only screen and (max-width: 1440px){
+    .swiper-slide{
+        background-size: 1600px;
+    }
+    .section-intro h2{
+        font-size: 5rem;
+    }
+    .swiper-intro-text-wrapper h1{
+        font-size: 4rem;
+    }
+    .logo-img{
+        max-width: 160px;
+    }
+    .swiper{
+        height: 900px;
+    } 
+}
+
+@media only screen and (max-width : 1399px) and (min-width : 1200px) {
+
+}
+
+@media only screen and (max-width: 1199px){
+    .swiper-slide{
+        background-size: 1400px;
+    }
+    .section-intro h2{
+        font-size: 4.5rem;
+    }
+    .section-intro .intro-text-wrapper p{
+        font-size: 1.75rem;
+    }
+    .section-intro h2{
+        font-size: 2rem;
+    }
+    p, .section-text-wrapper{ 
+        font-size: 1rem;
+    }
+    .section-subheading{
+        font-size: 1rem;
+    }
+    .section-heading{
+        font-size: 2rem;
+    }
+    .swiper-intro-text-wrapper h1{
+        font-size: 3.5rem;
+    }
+}
+
+@media only screen and (max-width : 1199px) and (min-width : 992px) {
+    .logo-wrapper-header{
+        width: 250px;
+    }
+    .section-intro h2{
+        font-size: 4rem;
+    }
+    .section-intro .intro-text-wrapper p{
+        font-size: 1.5rem;
+    }
+    .swiper{
+        height: 800px;
+    }   
+}
+
+@media only screen and (max-width : 991px) {
+    .swiper{
+        height: 700px;
+    }
+    section.section-separator{
+        padding: 50px 0;
+    }
+    .residential-img-wrapper, .commercial-img-wrapper{
+        height: 240px;
+    }
+    .logo-wrapper-header img{
+        max-width: 175px;
+    }
+    .hamburger{
+        position: fixed;
+        right: 0;
+        top: 0;
+        padding: 22px 18px 0 0;
+        font-size: 30px;
+        color: #00a92c;
+        cursor: pointer;
+        z-index: 600;
+    }
+    header{
+        padding: 10px;
+        border-bottom: none;
+    }
+    .logo-img{
+        width: 140px;
+    }
+    .swiper-slide{
+        background-size: 1200px;
+    }
+    .section-intro{
+        height: 370px;
+    }
+    .section-intro h2{
+        font-size: 3.5rem;
+    }
+    .section-intro .intro-text-wrapper p{
+        font-size: 1.25rem;
+    }
+    .section-heading{
+        font-size: 1.75rem;
+    }
+    .icon{
+        max-width: 50px;
+    }
+    .contact-section{
+        padding-top: 100px;
+    }
+    .contact-intro-text{
+        padding-bottom: 50px;
+    }
+    section{
+        padding: 50px 0;
+    }
+    .section-7{
+        padding: 50px 0;
+    }
+    .section-5, .section-6{
+        padding: 25px 0;
+    }
+    .mob-menu{
+        padding-top: 50px;
+    }
+    .swiper-intro-text-wrapper h2{
+        font-size: 1.75rem;
+        padding-bottom: 50px;
+    }
+    .swiper-intro-text-wrapper h1{
+        font-size: 2.25rem;
+    }
+    .section-separator{
+        padding-bottom: 0;
+    }
+    .section-separator .title-wrapper h2{
+        font-size: 1.75rem;
+    }
+    .section-intro{
+        height: auto !important;
+    }
+    .intro-wrapper{
+        margin-top: 0;
+    }
+    .section-text-wrapper h3, .text-wrapper h3{
+        min-height: unset;
+        font-size: 1.25rem;
+    }
+    .custom-hr{
+        display: none;
+    }
+    .section-6 ul li{
+        margin: 0 30px;
+    }
+    .section-8{
+        padding: 50px 0 0;
+    }
+    .offer-btn{
+        font-size: 14px !important;
+    }
+    .commercial-img-wrapper img{
+        object-position: 0 -80px;
+    }
+    .section-text-wrapper h3{
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+    .section-1{
+        padding: 50px 0 0;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    .section-5 .text-wrapper{
+        padding-top: 25px;
+    }
+    .logo-img{
+        width: 120px;
+    }
+    .residential-img-wrapper, .commercial-img-wrapper{
+        height: 180px;
+    }
+    .responsive-img-wrapper-col{
+        padding: 0 !important;
+    }
+    .contact-section .subheading{
+        font-size: 0.875rem;
+    }
+    .logo-wrapper-header img{
+        max-width: 150px;
+    }
+    .section-6{
+        padding-top: 25px;
+    }
+    .section-heading{
+        font-size: 1.75rem;
+        text-align: center;
+    }
+    .section-heading br{
+        display: none;
+    }
+    .section-2 ol{
+        padding: 20 0px;
+    }
+    .section-intro h2{
+        font-size: 1.75rem;
+        line-height: 1.05;
+    }
+    .section-intro .intro-text-wrapper p{
+        line-height: 1.25;
+    }
+    .swiper-slide{
+        background-size: 1600px;
+    }
+    .section-intro{
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+    .contact-section{
+        padding-top: 50px;
+    }
+    .contact-intro-text{
+        padding-bottom: 25px;
+    }
+    .section-7{
+        padding: 25px 0;
+    }  
+    section.section-separator{
+        padding: 0px;
+    }
+    section{
+        padding: 50px 0;
+    } 
+    .section-2{
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+    .section-3{
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width : 575px)
+{
+
+}
+
+@media only screen and (max-width : 425px)
+{
+
+}
+
+@media only screen and (max-width : 375px)
+{
+
+}
