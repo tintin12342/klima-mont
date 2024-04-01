@@ -8,9 +8,6 @@
     .swiper-intro-text-wrapper h1{
         font-size: 4rem;
     }
-    .logo-img{
-        max-width: 160px;
-    }
     .swiper{
         height: 900px;
     } 
@@ -88,9 +85,6 @@
     header{
         padding: 10px;
         border-bottom: none;
-    }
-    .logo-img{
-        width: 140px;
     }
     .swiper-slide{
         background-size: 1200px;
@@ -180,9 +174,6 @@
 @media only screen and (max-width : 767px) {
     .section-5 .text-wrapper{
         padding-top: 25px;
-    }
-    .logo-img{
-        width: 120px;
     }
     .residential-img-wrapper, .commercial-img-wrapper{
         height: 180px;
