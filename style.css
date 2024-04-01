@@ -203,7 +203,7 @@ header .offer-btn{
 }
 
 .swiper-slide-1{
-    background: url(/assets/slike/zlatan/12.png);
+    background: url(/assets/slike/zlatan/12.jpg);
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -603,7 +603,7 @@ p, .section-text-wrapper{
 }
 
 .residential-img-wrapper{
-    background: url("/assets/slike/zlatan/8.png");
+    background: url("/assets/slike/zlatan/8.jpg");
     background-position: center;
     background-size: cover;
 }
