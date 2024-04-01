@@ -175,6 +175,9 @@
     .section-5 .text-wrapper{
         padding-top: 25px;
     }
+    .logo-img{
+        width: 250px !important;
+    }
     .residential-img-wrapper, .commercial-img-wrapper{
         height: 180px;
     }
@@ -241,6 +244,9 @@
 
 @media only screen and (max-width : 575px)
 {
+    .logo-img{
+        width: 250px;
+    }
     .text-overlay {
         width: 90%;
     }
