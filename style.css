@@ -17,6 +17,37 @@ header{
     z-index: 2;
 }
 
+.containerr {
+    position: relative;
+    text-align: center;
+}
+
+.overlay-d {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.text-overlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 10px #000;
+}
+
+.velicina1 {
+    font-size: 4vw !important;
+}
+.velicina2 {
+    font-size: 2vw !important;
+}
+
 #myVideo {
     position: fixed;
     right: 0;
@@ -26,7 +57,7 @@ header{
 }
 
 .menu-icon{
-    color: #51c7ff;
+    color: #0100fb;
     font-size: 28px !important;
 }
 
@@ -108,11 +139,11 @@ header .offer-btn{
 }
 
 .nav-wrapper ul li:hover a{
-    color: #51c7ff !important 
+    color: #0100fb !important 
 }
 
 .phone-number-wrapper a:hover{
-    color: #51c7ff !important 
+    color: #0100fb !important 
 }
 
 #simple-menu{
@@ -172,9 +203,9 @@ header .offer-btn{
 }
 
 .swiper-slide-1{
-    background: url(/assets/slike/final-web-pics/swiper-1-resized.jpg);
+    background: url(/assets/slike/zlatan/12.png);
     background-size: cover;
-    background-position: center center;
+    background-position: bottom center;
     background-repeat: no-repeat;
 }
 
@@ -193,8 +224,8 @@ header .offer-btn{
 }
 
 .offer-wrapper button, .offer-wrapper button:hover, .offer-wrapper button:active, .offer-wrapper button:visited, .offer-wrapper button:focus {
-    background: #51c7ff !important;
-    border: 1px solid #51c7ff !important;
+    background: #0100fb !important;
+    border: 1px solid #0100fb !important;
 }
 
 .offer-wrapper button:hover{
@@ -253,7 +284,7 @@ section{
 }
 
 .error-text-wrapper, .error-text-wrapper a, .error-text-wrapper a:active, .error-text-wrapper a:hover, .error-text-wrapper a:visited{
-    color: #51c7ff;
+    color: #0100fb;
 }
 
 .error-text-wrapper h2{
@@ -269,7 +300,7 @@ section{
 .error-text-wrapper a p{
     display: inline-block;
     color: #fff;
-    background: #51c7ff;
+    background: #0100fb;
     padding: 5px 15px;
     border-radius: 25px;
 }
@@ -290,7 +321,7 @@ section{
 }
 
 .register-link{
-    color: #51c7ff !important;
+    color: #0100fb !important;
 }
 
 .intro-text-wrapper{
@@ -316,7 +347,7 @@ section{
     padding: 5px 15px 5px;
     display: block;
     color: #fff;
-    background: #51c7ff;
+    background: #0100fb;
     border-radius: 12px;
     text-transform: uppercase;
     font-weight: 700;
@@ -329,7 +360,7 @@ section{
 
 .mob-menu .offer-btn{
     padding: 7px 15px;
-    color: #51c7ff;
+    color: #0100fb;
     background: #fff;
     border-radius: 12px;
     text-transform: uppercase;
@@ -338,7 +369,7 @@ section{
 }
 
 .send-btn{
-    background: #51c7ff;
+    background: #0100fb;
     border: none;
 }
 
@@ -347,8 +378,8 @@ section{
 }
 
 .form-check-input:checked {
-    background-color: #51c7ff;
-    border-color: #51c7ff;
+    background-color: #0100fb;
+    border-color: #0100fb;
 }
 
 .mob-menu{
@@ -357,7 +388,7 @@ section{
     right: -300px;
     top: 0;
     height: 100vh;
-    background: #51c7ff;
+    background: #0100fb;
     color: #fff;
     z-index: 500;
     padding-top: 30px;
@@ -458,7 +489,7 @@ header{
 }
 
 .fancybox__thumbs .carousel__slide .fancybox__thumb::after{
-    border-color: #51c7ff;
+    border-color: #0100fb;
 }
 
 .small-text{
@@ -466,7 +497,7 @@ header{
 }
 
 .section-text-wrapper .offer-wrapper a{
-    background: #51c7ff;
+    background: #0100fb;
     color: #fff !important;
     border: none;  
 }
@@ -509,7 +540,7 @@ p, .section-text-wrapper{
 
 .section-heading{
     margin-bottom: 20px;
-    color: #51c7ff;
+    color: #0100fb;
     font-size: 3rem;
     text-transform: uppercase;
 }
@@ -519,12 +550,12 @@ p, .section-text-wrapper{
 }
 
 .section-text-wrapper a, .section-text-wrapper a:hover, .section-text-wrapper a:active, .section-text-wrapper a:visited{
-    color: #51c7ff;
+    color: #0100fb;
     text-decoration: none;
 }
 
 .section-contact-wrapper a, .section-contact-wrapper a:hover, .section-contact-wrapper a:active, .section-contact-wrapper a:visited{
-    color: #51c7ff;
+    color: #0100fb;
     text-decoration: none;
 }
 
@@ -572,7 +603,7 @@ p, .section-text-wrapper{
 }
 
 .residential-img-wrapper{
-    background: url("/assets/slike/final-web-pics/commercial-ac.jpg");
+    background: url("/assets/slike/zlatan/8.png");
     background-position: center;
     background-size: cover;
 }
@@ -610,5 +641,5 @@ p, .section-text-wrapper{
 }
 
 .logo-img{
-    max-width: 180px;
+    max-width: 350px;
 }
